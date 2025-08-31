@@ -1,172 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GSAP</title>
-  <link rel="stylesheet" href="style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GSAP</title>
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- GSAP Core -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <!-- GSAP Plugins -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/MotionPathPlugin.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/Draggable.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/InertiaPlugin.min.js"></script>
+    <!-- GSAP Core -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <!-- GSAP Plugins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/Draggable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/InertiaPlugin.min.js"></script>
 
-  <!-- Lenis Smooth Scroll -->
-  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@latest/dist/lenis.min.js"></script>
-</head>
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@latest/dist/lenis.min.js"></script>
+  </head>
 
-<body>
+  <body>
+    <main>
+      <div class="container" data-tilt="1">
+        <div class="left">
+          <div class="text">
+            <span>August 19, 2045 test</span>
+            <h2>Refreshing Delights <br /></h2>
+            <h3>
+              The Magic Of <br />
+              Taste & Freshness
+            </h3>
 
- <main>
-        <div class="container" data-tilt = "1">
-            <div class="left">
-                <div class="text">
-                    <span>August 19, 2045</span>
-                    <h2>Refreshing Delights <br> </h2>
-                    <h3>The Magic Of <br> Taste & Freshness</h3>
-
-                    <!-- <p>Experience the haunting melodies of <span> Alex Johnson’s </span> latest release</p> -->
-                </div>
-            </div>
-            <div class="right22">
-                <div class="text">
-                    <!-- <h2>Monthly Listeners</h2> -->
-                    <div class="odometer"></div>
-                    <div class="social-media">
-                        <div class="icon">
-                            <i class="ri-spotify-fill"></i>
-                        </div>
-                        <div class="icon">
-                            <i class="ri-soundcloud-fill"></i>
-                        </div>
-                        <div class="icon">
-                            <i class="ri-netease-cloud-music-fill"></i>
-                        </div>
-                    </div>
-                    <!-- <p>5:30 UTC , 19th August , 2045</p> -->
-                </div>
-
-           <div class="right22">
-    <div class="text">
-        <span>Fresh & Natural</span>
-        <h2>Taste The <br> Real Goodness</h2>
-        <!-- <p>Refresh yourself with our <span><br>100% organic juices</span>, made from handpicked fruits and packed with nature’s pure flavors.</p> -->
-    </div>
-</div>
-            </div>
-
-            <div class="heading">
-                <img src="images/logo2-removebg-preview.png" alt="">
-            </div>
-            <div class="character">
-                <img src="images/f-removebg-preview.png" alt="">
-            </div>
+            <!-- <p>Experience the haunting melodies of <span> Alex Johnson’s </span> latest release</p> -->
+          </div>
         </div>
+        <div class="right22">
+          <div class="text">
+            <!-- <h2>Monthly Listeners</h2> -->
+            <div class="odometer"></div>
+            <div class="social-media">
+              <div class="icon">
+                <i class="ri-spotify-fill"></i>
+              </div>
+              <div class="icon">
+                <i class="ri-soundcloud-fill"></i>
+              </div>
+              <div class="icon">
+                <i class="ri-netease-cloud-music-fill"></i>
+              </div>
+            </div>
+            <!-- <p>5:30 UTC , 19th August , 2045</p> -->
+          </div>
+
+          <div class="right22">
+            <div class="text">
+              <span>Fresh & Natural</span>
+              <h2>
+                Taste The <br />
+                Real Goodness
+              </h2>
+              <!-- <p>Refresh yourself with our <span><br>100% organic juices</span>, made from handpicked fruits and packed with nature’s pure flavors.</p> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="heading">
+          <img src="images/logo2-removebg-preview.png" alt="" />
+        </div>
+        <div class="character">
+          <img src="images/f-removebg-preview.png" alt="" />
+        </div>
+      </div>
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
-        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
-   
+    <!-- .................  -->
 
-  <!-- .................  -->
-    
     <section class="hero">
-	<div class="images">
-		<img src="https://images.pexels.com/photos/2251203/pexels-photo-2251203.jpeg" alt="image">
-		<img src="https://images.pexels.com/photos/17347144/pexels-photo-17347144.jpeg" alt="image" class="mask-img" style="--index: 5;">
-		<img src="https://images.pexels.com/photos/16873274/pexels-photo-16873274.jpeg" alt="image" class="mask-img" style="--index: 4;">
-		<img src="https://images.pexels.com/photos/11545780/pexels-photo-11545780.jpeg" alt="image" class="mask-img" style="--index: 3;">
-		<img src="https://images.pexels.com/photos/27638156/pexels-photo-27638156.jpeg" alt="image" class="mask-img" style="--index: 2;">
-		<img src="https://images.pexels.com/photos/5491004/pexels-photo-5491004.jpeg" alt="image" class="mask-img" style="--index: 1;">
-	</div>
+      <div class="images">
+        <img
+          src="https://images.pexels.com/photos/2251203/pexels-photo-2251203.jpeg"
+          alt="image"
+        />
+        <img
+          src="https://images.pexels.com/photos/17347144/pexels-photo-17347144.jpeg"
+          alt="image"
+          class="mask-img"
+          style="--index: 5"
+        />
+        <img
+          src="https://images.pexels.com/photos/16873274/pexels-photo-16873274.jpeg"
+          alt="image"
+          class="mask-img"
+          style="--index: 4"
+        />
+        <img
+          src="https://images.pexels.com/photos/11545780/pexels-photo-11545780.jpeg"
+          alt="image"
+          class="mask-img"
+          style="--index: 3"
+        />
+        <img
+          src="https://images.pexels.com/photos/27638156/pexels-photo-27638156.jpeg"
+          alt="image"
+          class="mask-img"
+          style="--index: 2"
+        />
+        <img
+          src="https://images.pexels.com/photos/5491004/pexels-photo-5491004.jpeg"
+          alt="image"
+          class="mask-img"
+          style="--index: 1"
+        />
+      </div>
 
-	<div class="content">
-		
-		<div class="center">
-			<!-- <div class="top-title">
+      <div class="content">
+        <div class="center">
+          <!-- <div class="top-title">
 				<p>We Create</p>
 			</div> -->
-			<div class="title-center">
-				<h1>Fresh Key</h1>
-			</div>
-			
-		</div>
-		
-	</div>
-</section>
+          <div class="title-center">
+            <h1>Fresh Key</h1>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- ...........................................  -->
 
-<!-- ...........................................  -->
-
-<!-- //section3 -->
- <div class="container3">
-  <div class="text">
-   Pure Fruit Bliss <br>Fresh goodness in every sip<br />Revitalize Yourself With Fresh Juices
-  </div>
-</div>
+    <!-- //section3 -->
+    <div class="container3">
+      <div class="text">
+        Pure Fruit Bliss <br />Fresh goodness in every sip<br />Revitalize
+        Yourself With Fresh Juices
+      </div>
+    </div>
 
     <!-- ....................  -->
-     <!-- .........................  -->
+    <!-- .........................  -->
 
-
- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"> </script>
-<!-- sec3  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <!-- sec3  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-<script src="https://assets.codepen.io/16327/SplitText3.min.js"></script>
+    <script src="https://assets.codepen.io/16327/SplitText3.min.js"></script>
 
     <script>
-        var el = document.querySelector('.odometer');
-        var maxValue = 524475;
-        var od = new Odometer({
-            el: el,
-            value: 0,
-            format: '(,ddd)',
-        });
-        var interval = setInterval(function () {
-            if (od.value >= maxValue) {
-                clearInterval(interval);
-            } else {
-                od.update(od.value + 999);
-            }
-        }, 0);
+      var el = document.querySelector('.odometer');
+      var maxValue = 524475;
+      var od = new Odometer({
+        el: el,
+        value: 0,
+        format: '(,ddd)',
+      });
+      var interval = setInterval(function () {
+        if (od.value >= maxValue) {
+          clearInterval(interval);
+        } else {
+          od.update(od.value + 999);
+        }
+      }, 0);
 
-        var tl = gsap.timeline();
+      var tl = gsap.timeline();
 
-        tl.from(".left", {
-            y: -1500,
-            duration: 1
-        })
-        tl.from(".right22", {
-            y: 1500,
-            duration: 1
-        })
-        tl.from(".character", {
-            y: 1500,
-            duration: 1
-        })
-        tl.from(".text span, .text h2, .text div, .text p", {
-            y: -100,
-            opacity: 0,
-            stagger: 0.1
-        })
-        tl.add(
+      tl.from('.left', {
+        y: -1500,
+        duration: 1,
+      });
+      tl.from('.right22', {
+        y: 1500,
+        duration: 1,
+      });
+      tl.from('.character', {
+        y: 1500,
+        duration: 1,
+      });
+      tl.from('.text span, .text h2, .text div, .text p', {
+        y: -100,
+        opacity: 0,
+        stagger: 0.1,
+      });
+      tl.add(
         $('.container').tilt({
-            maxTilt: 1,
-            maxGlare: .5
-        }))
-
+          maxTilt: 1,
+          maxGlare: 0.5,
+        })
+      );
     </script>
 
-
-
-
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
