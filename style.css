@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lexend', sans-serif;
+}
+section,
+.content {
+	width: 100%;
+	height: 100svh;
+	overflow: hidden;
+}
+.images {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	img {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+		z-index: var(--index);
+		will-change: mask-image;
+	}
+}
+.content {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	z-index: 10;
+	color: #fff;
+	font-size: 20px;
+}
+.content .top,
+.content .bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+.content .center {
+	width: 100%;
+	max-width: clamp(300px, 80vw, 1000px);
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 100px;
+}
+.content .center .title-center {
+	text-align: center;
+	font-size: clamp(30px, 8vw, 100px);
+}
+.content .center .title-bottom {
+	text-align: right;
+}
+.last-section {
+	width: 100%;
+	height: 100svh;
+	background: black;
+	color: #fff;
+	font-size: clamp(30px, 8vw, 100px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+/* ..........................................  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&family=Wallpoet&display=swap'); *{ margin: 0; padding: 0; box-sizing: border-box; }
+ html{ 
+	font-size: 62.5%;
+ } 
+ body{ 
+	min-height: 100vh;
+	 width: 100vw; display: grid;
+	  place-content: center;
+	   overflow: hidden; 
+	} 
+ .container{ 
+	height: 100vh; width: 100vw;
+	 display: flex; 
+	 position: relative; 
+	} 
+ .character{ position: absolute; 
+	bottom: 2rem; left: 50%; 
+	transform: translate(-50%) scale(1.1); 
+} 
+ .heading{ 
+	position: absolute;
+	 top: 3rem; left: 50%; 
+	 transform: translate(-50%) scale(0.5); 
+	} 
+ .left,.right22{ 
+	width: 50%; height: 100%;
+	 display: flex;
+	  flex-direction: column; 
+	 justify-content: center; 
+	 align-items: center;
+	 } 
+ .left{ 
+	background: #8DB48E; 
+} 
+.text > 
+*{ 
+	opacity: 1;
+ } 
+ .text{
+	 font-family: "Poppins",sans-serif; 
+	 font-size: 1.4rem; 
+	 display: flex; 
+	 flex-direction: column; 
+	 justify-content: center; 
+	 align-items: flex-start; 
+	 gap: 2rem; color: #fff;
+	 } 
+ .left .text h2{
+	 font-family: "Roboto Condensed", sans-serif; 
+	 font-size: 6rem; 
+	 text-shadow: 2px 2px 2px rgba(0,0,0,0.3); 
+	 opacity: 1; 
+	} 
+ .left .text span{ 
+	font-weight: 600;
+	 text-shadow: 1px 1px 1px rgba(0,0,0,0.3); 
+	 opacity: 1; 
+	} 
+ .left .text p{ 
+	font-size: 1.4rem;
+	 display: flex; 
+	 flex-direction: column;
+	  justify-content: center; 
+	  width: 29ch; 
+	  text-shadow: 1px 1px 1px rgba(0,0,0,0.3); 
+	  opacity: 1;
+	 } 
+ .left .text p span{
+	 display: inline-block;
+	  font-size: 3rem; 
+	  color: #8DB48E; 
+	  background: #fff; 
+	  padding-inline: 1rem; 
+	  margin: 0.5rem 0; 
+	  
+	  box-shadow: 2px 2px 2px rgba(0,0,0,0.1); opacity: 1; } 
+ .right22{ 
+	background: #202124; } 
+
+
+
+.heading img {
+    width: 100%;  
+    height: auto;
+}
+
+.odometer {
+    display: none; 
+}
+
+
+/* .. ...section3 .... .... ...  */
+.container3 {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 9px;
+  overflow: visible; 
+}
+
+.container3 .text {
+	background-color: #202124;
+  color: orangered;
+  font-size: clamp(2rem, 12rem, 5vw);
+  line-height: 1.2; 
+  box-sizing: border-box;
+  padding: 5%;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+.container3 {
+  overflow: visible;
+}
